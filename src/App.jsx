@@ -1,7 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/home';
 import Preloader from './components/Preloader';
 import Navbar from './components/navbar';
 import Footer from './components/Footer';
@@ -26,12 +26,12 @@ import Auto from './components/Auto';
 
 
 function App() {
-  const [user, setUser] = useState(null);
+  //const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true); // For Preloader
 
-  const handleLogin = (userData) => {
+  /*const handleLogin = (userData) => {
     setUser(userData);
-  };
+  };*/
 
   useEffect(() => {
     // Simulate loading delay
