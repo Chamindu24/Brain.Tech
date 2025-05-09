@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
-import Preloader from './components/Preloader';
+import Preloader from './components/preloader';
 import Navbar from './components/navbar';
 import Footer from './components/Footer';
 import About from './components/About';
